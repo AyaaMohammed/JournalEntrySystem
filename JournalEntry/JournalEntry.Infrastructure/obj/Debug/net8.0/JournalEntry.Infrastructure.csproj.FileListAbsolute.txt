@@ -13,3 +13,6 @@ D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalEntry.Infrastructure.pdb
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalEntry.Infrastructure.genruntimeconfig.cache
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\ref\JournalEntry.Infrastructure.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\bin\Debug\net8.0\JournalEntry.Data.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\bin\Debug\net8.0\JournalEntry.Data.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalE.EB0EEF48.Up2Date

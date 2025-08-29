@@ -145,3 +145,4 @@ D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\obj\Debug\net8.0\refint\Jo
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\obj\Debug\net8.0\JournalEntry.APIs.pdb
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\obj\Debug\net8.0\JournalEntry.APIs.genruntimeconfig.cache
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\obj\Debug\net8.0\ref\JournalEntry.APIs.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\efpt.config.json

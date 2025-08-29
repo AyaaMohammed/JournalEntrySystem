@@ -10,3 +10,4 @@ D:\Nitcotek Assessment\JournalEntry\JournalEntry.Data\obj\Debug\net8.0\JournalEn
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.Data\obj\Debug\net8.0\refint\JournalEntry.Data.dll
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.Data\obj\Debug\net8.0\JournalEntry.Data.pdb
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.Data\obj\Debug\net8.0\ref\JournalEntry.Data.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Data\obj\Debug\net8.0\JournalEntry.Data.csproj.AssemblyReference.cache

@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JournalEntry.Data\JournalEntry.Data.csproj" />
+  </ItemGroup>
+
 </Project>
