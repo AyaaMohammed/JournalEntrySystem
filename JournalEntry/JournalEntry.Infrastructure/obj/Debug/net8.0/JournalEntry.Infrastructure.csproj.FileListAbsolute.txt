@@ -1,0 +1,15 @@
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\bin\Debug\net8.0\JournalEntry.Infrastructure.deps.json
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\bin\Debug\net8.0\JournalEntry.Infrastructure.runtimeconfig.json
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\bin\Debug\net8.0\JournalEntry.Infrastructure.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\bin\Debug\net8.0\JournalEntry.Infrastructure.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalEntry.Infrastructure.csproj.AssemblyReference.cache
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalEntry.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalEntry.Infrastructure.AssemblyInfoInputs.cache
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalEntry.Infrastructure.AssemblyInfo.cs
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalEntry.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalEntry.Infrastructure.sourcelink.json
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalEntry.Infrastructure.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\refint\JournalEntry.Infrastructure.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalEntry.Infrastructure.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\JournalEntry.Infrastructure.genruntimeconfig.cache
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Infrastructure\obj\Debug\net8.0\ref\JournalEntry.Infrastructure.dll

@@ -1,0 +1,13 @@
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\bin\Debug\net8.0\JournalEntry.Core.deps.json
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\bin\Debug\net8.0\JournalEntry.Core.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\bin\Debug\net8.0\JournalEntry.Core.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\obj\Debug\net8.0\JournalEntry.Core.csproj.AssemblyReference.cache
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\obj\Debug\net8.0\JournalEntry.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\obj\Debug\net8.0\JournalEntry.Core.AssemblyInfoInputs.cache
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\obj\Debug\net8.0\JournalEntry.Core.AssemblyInfo.cs
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\obj\Debug\net8.0\JournalEntry.Core.csproj.CoreCompileInputs.cache
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\obj\Debug\net8.0\JournalEntry.Core.sourcelink.json
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\obj\Debug\net8.0\JournalEntry.Core.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\obj\Debug\net8.0\refint\JournalEntry.Core.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\obj\Debug\net8.0\JournalEntry.Core.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Core\obj\Debug\net8.0\ref\JournalEntry.Core.dll

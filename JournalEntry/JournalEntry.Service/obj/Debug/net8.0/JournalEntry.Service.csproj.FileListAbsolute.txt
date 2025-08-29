@@ -1,0 +1,12 @@
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\bin\Debug\net8.0\JournalEntry.Service.deps.json
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\bin\Debug\net8.0\JournalEntry.Service.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\bin\Debug\net8.0\JournalEntry.Service.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\JournalEntry.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\JournalEntry.Service.AssemblyInfoInputs.cache
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\JournalEntry.Service.AssemblyInfo.cs
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\JournalEntry.Service.csproj.CoreCompileInputs.cache
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\JournalEntry.Service.sourcelink.json
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\JournalEntry.Service.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\refint\JournalEntry.Service.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\JournalEntry.Service.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\ref\JournalEntry.Service.dll
