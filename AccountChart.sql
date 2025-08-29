@@ -51,7 +51,7 @@ CREATE TABLE [dbo].[JournalHeader](
     [TransactionType] NVARCHAR(100) NOT NULL,              
     [DocumentNo] NVARCHAR(50) NULL,                         
     [ShortName] NVARCHAR(100) NULL,                         
-    [Description] NVARCHAR(500) NULL,                       
+    [Description] NVARCHAR(500) NOT NULL,                       
     [FilePath] NVARCHAR(500) NULL,                         
     [User_ID] BIGINT NOT NULL,                              
     [Creation_Date] DATETIME NOT NULL DEFAULT GETDATE(),     
