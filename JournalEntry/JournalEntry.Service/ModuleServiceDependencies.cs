@@ -12,7 +12,7 @@ namespace JournalEntry.Service
         {
             // Register other service layer dependencies here if needed
             services.AddTransient<IJournalRepository,JournalRepository>();
-            services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
+            
 
             return services;
         }

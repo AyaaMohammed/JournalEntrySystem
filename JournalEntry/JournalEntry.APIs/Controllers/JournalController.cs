@@ -42,10 +42,9 @@ namespace JournalEntry.APIs.Controllers
             var journal = await _journalRepository.GetByIdAsync(journalId);
 
             if (journal == null) return NotFound();
-
             var pdfBytes = _pdfService.GenerateJournalPdf(journal);
 
-            return File(pdfBytes, "application/pdf", $"Journal_{journal.JournalID}.pdf");
+            return File(pdfBytes, "application/pdf", $"Journal_{journalId}.pdf");
         }
     }
 }

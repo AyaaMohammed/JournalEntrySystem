@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-
+using QuestPDF.Infrastructure;
 namespace JournalEntry.APIs
 {
     public class Program
@@ -24,8 +24,10 @@ namespace JournalEntry.APIs
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            QuestPDF.Settings.License = LicenseType.Community;
             builder.Services.AddDbContext<dbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
             builder.Services.AddScoped<IPdfService, PdfService>();
             builder.Services.AddCoreDependencies().AddInfrastructureDependencies()
                 .AddServiceDependencies();

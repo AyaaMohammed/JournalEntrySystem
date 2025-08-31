@@ -20,5 +20,8 @@
     <ProjectReference Include="..\JournalEntry.Core\JournalEntry.Core.csproj" />
     <ProjectReference Include="..\JournalEntry.Infrastructure\JournalEntry.Infrastructure.csproj" />
   </ItemGroup>
+<ItemGroup>
+  <None Include="libs\wkhtmltox\**\*" CopyToOutputDirectory="PreserveNewest" />
+</ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bo5Nl5DlQGA=",
+  "dgSpecHash": "VnXgiJsGcW8=",
   "success": true,
   "projectFilePath": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.APIs\\JournalEntry.APIs.csproj",
   "expectedPackageFiles": [
@@ -57,6 +57,7 @@
     "C:\\Users\\ayamo\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\ayamo\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\ayamo\\.nuget\\packages\\netstandard.library\\1.6.0\\netstandard.library.1.6.0.nupkg.sha512",
+    "C:\\Users\\ayamo\\.nuget\\packages\\questpdf\\2025.7.1\\questpdf.2025.7.1.nupkg.sha512",
     "C:\\Users\\ayamo\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Users\\ayamo\\.nuget\\packages\\runtime.native.system.io.compression\\4.1.0\\runtime.native.system.io.compression.4.1.0.nupkg.sha512",
     "C:\\Users\\ayamo\\.nuget\\packages\\runtime.native.system.net.http\\4.0.1\\runtime.native.system.net.http.4.0.1.nupkg.sha512",

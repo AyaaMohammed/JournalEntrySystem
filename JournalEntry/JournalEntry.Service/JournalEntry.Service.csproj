@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="DinkToPdf" Version="1.0.8" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+    <PackageReference Include="QuestPDF" Version="2025.7.1" />
   </ItemGroup>
 
   <ItemGroup>
