@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Nitcotek Assessment\\JournalEntry\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D790503C-028F-41F5-A368-79CD25096B20}|JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.infrastructure\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D790503C-028F-41F5-A368-79CD25096B20}|JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj|solutionrelative:journalentry.infrastructure\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D790503C-028F-41F5-A368-79CD25096B20}|JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.infrastructure\\journalentry.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D790503C-028F-41F5-A368-79CD25096B20}|JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj|solutionrelative:journalentry.infrastructure\\journalentry.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|solutionrelative:journalentry.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.data\\models\\journalheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|solutionrelative:journalentry.data\\models\\journalheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.data\\models\\journaldetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|solutionrelative:journalentry.data\\models\\journaldetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.data\\models\\accountschart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|solutionrelative:journalentry.data\\models\\accountschart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,88 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JournalEntry.Infrastructure",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj",
-              "RelativeToolTip": "JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-29T02:15:24.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbContext.cs",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Infrastructure\\Context\\dbContext.cs",
-              "RelativeDocumentMoniker": "JournalEntry.Infrastructure\\Context\\dbContext.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Infrastructure\\Context\\dbContext.cs",
-              "RelativeToolTip": "JournalEntry.Infrastructure\\Context\\dbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T02:14:39.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "JournalEntry.Data\\Models\\User.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\User.cs",
-              "RelativeToolTip": "JournalEntry.Data\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T02:14:26.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JournalHeader.cs",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\JournalHeader.cs",
-              "RelativeDocumentMoniker": "JournalEntry.Data\\Models\\JournalHeader.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\JournalHeader.cs",
-              "RelativeToolTip": "JournalEntry.Data\\Models\\JournalHeader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T02:14:14.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JournalDetail.cs",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\JournalDetail.cs",
-              "RelativeDocumentMoniker": "JournalEntry.Data\\Models\\JournalDetail.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\JournalDetail.cs",
-              "RelativeToolTip": "JournalEntry.Data\\Models\\JournalDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T02:14:05.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccountsChart.cs",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\AccountsChart.cs",
-              "RelativeDocumentMoniker": "JournalEntry.Data\\Models\\AccountsChart.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\AccountsChart.cs",
-              "RelativeToolTip": "JournalEntry.Data\\Models\\AccountsChart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T02:13:03.648Z",
-              "EditorCaption": ""
             }
           ]
         },

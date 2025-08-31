@@ -5,6 +5,49 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Journal": {
+      "post": {
+        "tags": [
+          "Journal"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddJournalCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddJournalCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddJournalCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Journal/test": {
+      "get": {
+        "tags": [
+          "Journal"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -47,6 +90,81 @@
   },
   "components": {
     "schemas": {
+      "AddJournalCommand": {
+        "type": "object",
+        "properties": {
+          "systemNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "entryDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "transactionType": {
+            "type": "string",
+            "nullable": true
+          },
+          "documentNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "user_ID": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "filePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "journalDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/JournalDetailDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "JournalDetailDto": {
+        "type": "object",
+        "properties": {
+          "accountID": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "accountNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "accountName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lineDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "reportDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "debit": {
+            "type": "number",
+            "format": "double"
+          },
+          "credit": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "WeatherForecast": {
         "type": "object",
         "properties": {

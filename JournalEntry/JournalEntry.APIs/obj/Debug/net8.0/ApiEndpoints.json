@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "JournalEntry.APIs.Controllers.JournalController",
+    "Method": "AddJournal",
+    "RelativePath": "api/Journal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "JournalEntry.Core.Features.Journal.Commands.Models.AddJournalCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JournalEntry.APIs.Controllers.JournalController",
+    "Method": "TestConnection",
+    "RelativePath": "api/Journal/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "JournalEntry.APIs.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

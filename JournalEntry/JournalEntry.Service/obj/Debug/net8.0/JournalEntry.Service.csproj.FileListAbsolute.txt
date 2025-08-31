@@ -10,3 +10,9 @@ D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\Journa
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\refint\JournalEntry.Service.dll
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\JournalEntry.Service.pdb
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\ref\JournalEntry.Service.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\bin\Debug\net8.0\JournalEntry.Data.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\bin\Debug\net8.0\JournalEntry.Infrastructure.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\bin\Debug\net8.0\JournalEntry.Data.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\bin\Debug\net8.0\JournalEntry.Infrastructure.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\JournalEntry.Service.csproj.AssemblyReference.cache
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.Service\obj\Debug\net8.0\JournalE.4473F155.Up2Date

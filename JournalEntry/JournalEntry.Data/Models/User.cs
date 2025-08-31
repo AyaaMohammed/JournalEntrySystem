@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
 namespace JournalEntry.Data.Models;
-
+[Table("Users")]
 public partial class User
 {
     [Key]

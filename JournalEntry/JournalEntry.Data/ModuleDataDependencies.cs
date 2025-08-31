@@ -1,6 +1,6 @@
 ﻿namespace JournalEntry.Data
 {
-    public class Class1
+    public static class ModuleDataDependencies
     {
 
     }

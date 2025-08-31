@@ -146,3 +146,17 @@ D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\obj\Debug\net8.0\JournalEn
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\obj\Debug\net8.0\JournalEntry.APIs.genruntimeconfig.cache
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\obj\Debug\net8.0\ref\JournalEntry.APIs.dll
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\efpt.config.json
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\AutoMapper.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\FluentValidation.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\MediatR.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\JournalEntry.Core.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\JournalEntry.Data.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\JournalEntry.Infrastructure.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\JournalEntry.Service.dll
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\JournalEntry.Core.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\JournalEntry.Infrastructure.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\JournalEntry.Data.pdb
+D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\JournalEntry.Service.pdb
