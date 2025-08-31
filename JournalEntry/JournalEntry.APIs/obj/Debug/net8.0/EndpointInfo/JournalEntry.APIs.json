@@ -5,7 +5,19 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Journal": {
+    "/api/Account/Api/v1/Account/GetAll": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Journal/Api/v1/Journal/Add": {
       "post": {
         "tags": [
           "Journal"
@@ -36,10 +48,33 @@
         }
       }
     },
-    "/api/Journal/test": {
+    "/api/Journal/Api/v1/Journal/Print/{journalId}": {
       "get": {
         "tags": [
           "Journal"
+        ],
+        "parameters": [
+          {
+            "name": "journalId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/Api/v1/User/GetAll": {
+      "get": {
+        "tags": [
+          "User"
         ],
         "responses": {
           "200": {

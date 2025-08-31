@@ -11,5 +11,7 @@ namespace JournalEntry.Infrastructure.Abstracts
     {
         Task AddAsync(JournalHeader header);
         Task<JournalHeader> GetByIdAsync(Guid id);
+
+
     }
 }

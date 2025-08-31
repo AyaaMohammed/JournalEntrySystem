@@ -1,8 +1,18 @@
 [
   {
+    "ContainingType": "JournalEntry.APIs.Controllers.AccountController",
+    "Method": "GetAccounts",
+    "RelativePath": "api/Account/Api/v1/Account/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "JournalEntry.APIs.Controllers.JournalController",
     "Method": "AddJournal",
-    "RelativePath": "api/Journal",
+    "RelativePath": "api/Journal/Api/v1/Journal/Add",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -17,8 +27,24 @@
   },
   {
     "ContainingType": "JournalEntry.APIs.Controllers.JournalController",
-    "Method": "TestConnection",
-    "RelativePath": "api/Journal/test",
+    "Method": "GetJournalForPrint",
+    "RelativePath": "api/Journal/Api/v1/Journal/Print/{journalId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "journalId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JournalEntry.APIs.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User/Api/v1/User/GetAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

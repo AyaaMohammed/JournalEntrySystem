@@ -29,7 +29,7 @@ namespace JournalEntry.Infrastructure.Repositories
         {
             return await _context.JournalHeaders
                 .Include(x => x.JournalDetails)
-                .FirstOrDefaultAsync(x => x.JournalID == id);
+                 .FirstOrDefaultAsync(x => x.JournalID == id);
         }
     }
 

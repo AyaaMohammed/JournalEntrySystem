@@ -1,12 +1,14 @@
 
-using JournalEntry.Core.MiddleWare;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using Microsoft.AspNetCore.Builder;
 using JournalEntry.Core;
-using Microsoft.Extensions.DependencyInjection;
+using JournalEntry.Core.MiddleWare;
 using JournalEntry.Infrastructure;
 using JournalEntry.Service;
+using JournalEntry.Service.Abstracts;
+using JournalEntry.Service.Implementation;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 
 namespace JournalEntry.APIs
 {
@@ -24,7 +26,7 @@ namespace JournalEntry.APIs
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<dbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+            builder.Services.AddScoped<IPdfService, PdfService>();
             builder.Services.AddCoreDependencies().AddInfrastructureDependencies()
                 .AddServiceDependencies();
             var app = builder.Build();

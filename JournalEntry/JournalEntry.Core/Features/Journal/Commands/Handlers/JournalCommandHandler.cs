@@ -39,7 +39,7 @@ namespace JournalEntry.Core.Features.Journal.Commands.Handlers
             }
             return new Response<string>
             {
-                Data = string.Empty, 
+                Data = entity.JournalID.ToString(), 
                 Message = "Journal created successfully",
                 Succeeded = true
             };

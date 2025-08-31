@@ -1,6 +1,9 @@
 ﻿using JournalEntry.Core.Features.Journal.Commands.Models;
+using JournalEntry.Data.AppMetaData;
 using JournalEntry.Data.Models;
 using JournalEntry.Infrastructure;
+using JournalEntry.Infrastructure.Abstracts;
+using JournalEntry.Service.Abstracts;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -15,15 +18,16 @@ namespace JournalEntry.APIs.Controllers
     public class JournalController : ControllerBase
     {
         private readonly IMediator _mediator;
-        private readonly dbContext _context;
-
-        public JournalController(IMediator mediator, dbContext context)
+        private readonly IJournalRepository _journalRepository;
+        private readonly IPdfService _pdfService;
+        public JournalController(IMediator mediator,IJournalRepository journal,IPdfService pdfService)
         {
             _mediator = mediator;
-            _context = context;
+            _journalRepository = journal;
+            _pdfService = pdfService;
         }
 
-        [HttpPost]
+        [HttpPost(Router.JournalRouting.Add)]
         public async Task<IActionResult> AddJournal([FromBody] AddJournalCommand command)
         {
             var result = await _mediator.Send(command);
@@ -32,13 +36,16 @@ namespace JournalEntry.APIs.Controllers
 
             return Ok(result);
         }
-        [HttpGet("test")]
-        public IActionResult TestConnection()
+        [HttpGet(Router.JournalRouting.Print)]
+        public async Task<IActionResult> GetJournalForPrint(Guid journalId)
         {
-            var users = _context.Users.ToList();
-            return Ok(new { Count = users.Count });
-        }
+            var journal = await _journalRepository.GetByIdAsync(journalId);
 
-      
+            if (journal == null) return NotFound();
+
+            var pdfBytes = _pdfService.GenerateJournalPdf(journal);
+
+            return File(pdfBytes, "application/pdf", $"Journal_{journal.JournalID}.pdf");
+        }
     }
 }

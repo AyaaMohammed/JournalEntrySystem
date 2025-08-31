@@ -11,10 +11,10 @@ namespace JournalEntry.Infrastructure.InfrastructureBases
     public class GenericRepositoryAsync<T> : IGenericRepositoryAsync<T> where T : class
     {
 
-        protected readonly DbContext _dbContext;
+        protected readonly dbContext _dbContext;
 
 
-        public GenericRepositoryAsync(DbContext dbContext)
+        public GenericRepositoryAsync(dbContext dbContext)
         {
             _dbContext = dbContext;
         }

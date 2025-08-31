@@ -1,6 +1,8 @@
 ﻿using FluentValidation;
 using JournalEntry.Core.Behaviors;
+using JournalEntry.Data.Models;
 using JournalEntry.Infrastructure.Abstracts;
+using JournalEntry.Infrastructure.InfrastructureBases;
 using JournalEntry.Service.Abstracts;
 using JournalEntry.Service.Implementation;
 using MediatR;
@@ -27,6 +29,8 @@ namespace JournalEntry.Core
 
             // You can register other core services here as needed
             services.AddTransient<IJournalService, JournalService>();
+            services.AddTransient<IGenericRepositoryAsync<User>, GenericRepositoryAsync<User>>();
+            services.AddTransient<IGenericRepositoryAsync<AccountsChart>, GenericRepositoryAsync<AccountsChart>>();
 
             return services;
         }

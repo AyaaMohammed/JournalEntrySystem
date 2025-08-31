@@ -12,15 +12,21 @@ namespace JournalEntry.Data.AppMetaData
         public const string version = "v1";
         public const string Rule = $"{root}/{version}";
 
-        public static class StudentRouting
+        public static class AccountRouting
         {
-            public const string Prefix = $"{Rule}/Student";
+            public const string Prefix = $"{Rule}/Account";
             public const string GetAll = $"{Prefix}/GetAll";
-            public const string GetById = $"{Prefix}/GetById/{{id}}";
+        }
+        public static class UserRouting
+        {
+            public const string Prefix = $"{Rule}/User";
+            public const string GetAll = $"{Prefix}/GetAll";
+        }
+        public static class JournalRouting
+        {
+            public const string Prefix = $"{Rule}/Journal";
             public const string Add = $"{Prefix}/Add";
-            public const string Edit = $"{Prefix}/Edit";
-            public const string Delete = $"{Prefix}/Delete/{{id}}";
-            public const string Pagnated = $"{Prefix}/Pagnated";
+            public const string Print = $"{Prefix}/Print/{{journalId}}";
         }
 
     }
