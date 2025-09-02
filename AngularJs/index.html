@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html ng-app="angularjs">
+<head>
+  <meta charset="UTF-8">
+  <title>قيد اليومية</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="app.js"></script>
+  <script src="app/services/account.service.js"></script>
+  <script src="app/services/user.service.js"></script>
+  <script src="app/services/journal.service.js"></script>
+  <script src="app/controllers/journal.controller.js"></script>
+
+</head>
+<body ng-controller="JournalController">
+
+<h2>بيانات القيد</h2>
+<form name="journalForm" novalidate>
+  <div class="form-row">
+    <div class="form-group">
+      <label>الرقم النظامي</label>
+      <input type="text" name="systemNo" ng-model="journal.systemNo" ng-required="true"
+             ng-class="{'error': journalForm.systemNo.$invalid && journalForm.$submitted}">
+      <span ng-show="journalForm.systemNo.$invalid && journalForm.$submitted" class="error-msg">
+        مطلوب
+      </span>
+    </div>
+
+    <div class="form-group">
+      <label>نوع الحركة</label>
+      <select name="transactionType" ng-model="journal.transactionType" ng-required="true"
+              ng-class="{'error': journalForm.transactionType.$invalid && journalForm.$submitted}">
+        <option value="">اختر</option>
+        <option value="حركة يومية">حركة يومية</option>
+        <option value="سند قبض">سند قبض</option>
+        <option value="سند صرف">سند صرف</option>
+        <option value="قيد افتتاحي">قيد افتتاحي</option>
+        <option value="قيد تسوية">قيد تسوية</option>
+      </select>
+      <span ng-show="journalForm.transactionType.$invalid && journalForm.$submitted" class="error-msg">
+        مطلوب اختيار نوع الحركة
+      </span>
+    </div>
+
+    <div class="form-group">
+      <label>المستخدم</label>
+      <select ng-model="journal.user_ID" name="user_ID" ng-options="u.user_ID as u.userName for u in users" ng-required="true"
+              ng-class="{'error': journalForm.user_ID.$invalid && journalForm.$submitted}">
+        <option value="">اختر</option>
+      </select><br>
+      <span ng-show="journalForm.user_ID.$invalid && journalForm.$submitted" class="error-msg">
+        مطلوب اختيار مستخدم
+      </span>
+    </div>
+
+    <div class="form-group">
+      <label>رقم المستند</label>
+      <input type="text" ng-model="journal.documentNo">
+    </div>
+
+    <div class="form-group">
+      <label>التاريخ</label>
+      <input type="date" ng-model="journal.entryDate" max="{{today}}" required  name="entryDate" 
+             ng-class="{'error': journalForm.entryDate.$invalid && journalForm.$submitted}"><br>
+      <span ng-show="journalForm.entryDate.$invalid && journalForm.$submitted" class="error-msg">
+        يجب أن يكون التاريخ اليوم أو أقدم
+      </span>
+    </div>
+
+    <div class="form-group full">
+      <label>الوصف</label>
+      <textarea ng-model="journal.description" name="description" ng-required="true" 
+                ng-class="{'error': journalForm.description.$invalid && journalForm.$submitted}"></textarea>
+      <span ng-show="journalForm.description.$invalid && journalForm.$submitted" class="error-msg">
+        مطلوب
+      </span>
+    </div>
+
+    <div class="form-group full">
+      <label>المرفق</label>
+      <input type="file" file-model="journal.filePath">
+    </div>
+  </div>
+</form>
+
+<h3>تفاصيل</h3>
+
+<div class="totals">
+  <button type="button">الرصيد المدين: {{getTotalDebit()}}</button>
+  <button type="button">الرصيد الدائن: {{getTotalCredit()}}</button>
+  <button type="button">الفرق: {{getDifference()}}</button>
+</div>
+
+  <table>
+    <tr>
+      <th>رقم الحساب</th>
+      <th>اسم الحساب</th>
+      <th>مدين</th>
+      <th>دائن</th>
+      <th>البيان</th>
+      <th>البلاغ</th>
+      <th>حذف</th>
+    </tr>
+    <tr ng-repeat="d in journal.journalDetails">
+      <td>
+        <select ng-model="d.accountNumber" 
+                ng-options="a.number as a.number for a in accounts"
+                ng-change="setAccountName(d)">
+          <option value="">اختر رقم الحساب</option>
+        </select>
+      </td>
+      <td>
+        <input type="text" ng-model="d.accountName" disabled>
+      </td>
+      <td><input type="number" ng-model="d.debit" ng-disabled="d.credit > 0"></td>
+      <td><input type="number" ng-model="d.credit" ng-disabled="d.debit > 0"></td>
+      <td><input type="text" ng-model="d.lineDescription"></td>
+      <td><input type="text" ng-model="d.reportDescription"></td>
+      <td><button type="button" ng-click="removeDetail($index)">حذف</button></td>
+    </tr>
+  </table>
+
+  <button type="button" ng-click="addDetail()">إضافة سطر</button>
+  <button type="button" ng-click="saveJournal(journalForm)">حفظ</button>
+
+</body>
+</html>

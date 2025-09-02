@@ -31,6 +31,16 @@ namespace JournalEntry.APIs
             builder.Services.AddScoped<IPdfService, PdfService>();
             builder.Services.AddCoreDependencies().AddInfrastructureDependencies()
                 .AddServiceDependencies();
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAngular",
+                    policy =>
+                    {
+                        policy.AllowAnyOrigin()   
+                              .AllowAnyMethod()
+                              .AllowAnyHeader();
+                    });
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -39,7 +49,7 @@ namespace JournalEntry.APIs
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseCors("AllowAngular");
             app.UseMiddleware<ErrorHandlerMiddleware>();
             app.UseHttpsRedirection();
 

@@ -1,0 +1,122 @@
+body {
+  font-family: "Tahoma", Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 20px;
+  direction: rtl;
+  text-align: right;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+.form-row {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 20px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1 1 calc(25% - 20px);
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-group.full {
+  flex: 1 1 100%; 
+}
+
+.error-msg {
+  display: block; 
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+input[type="text"], 
+input[type="number"], 
+input[type="date"],  
+select {
+  padding: 6px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;  
+  min-height: 80px;
+  resize: none;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.totals {
+  margin-top: 15px;
+}
+
+.totals button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: default;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: #fff;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background: #007bff;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+button {
+  margin-top: 15px;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button[ng-click="removeDetail($index)"] {
+  background: #dc3545;
+}

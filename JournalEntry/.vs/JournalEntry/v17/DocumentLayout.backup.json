@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Nitcotek Assessment\\JournalEntry\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|solutionrelative:journalentry.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B50A9BB6-1866-43BC-BA95-77A4C3DF5319}|JournalEntry.Service\\JournalEntry.Service.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.service\\implementation\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B50A9BB6-1866-43BC-BA95-77A4C3DF5319}|JournalEntry.Service\\JournalEntry.Service.csproj|solutionrelative:journalentry.service\\implementation\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D790503C-028F-41F5-A368-79CD25096B20}|JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.infrastructure\\repositories\\journalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D790503C-028F-41F5-A368-79CD25096B20}|JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj|solutionrelative:journalentry.infrastructure\\repositories\\journalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|solutionrelative:journalentry.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.apis\\controllers\\journalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,8 +69,12 @@
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JournalRepository.cs",
               "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Infrastructure\\Repositories\\JournalRepository.cs",
               "RelativeDocumentMoniker": "JournalEntry.Infrastructure\\Repositories\\JournalRepository.cs",
@@ -78,12 +82,7 @@
               "RelativeToolTip": "JournalEntry.Infrastructure\\Repositories\\JournalRepository.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T22:31:45.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-08-31T22:31:45.907Z"
             },
             {
               "$type": "Document",
@@ -95,8 +94,7 @@
               "RelativeToolTip": "JournalEntry.APIs\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-31T21:40:33.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T21:40:33.943Z"
             },
             {
               "$type": "Document",
@@ -108,8 +106,7 @@
               "RelativeToolTip": "JournalEntry.APIs\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-31T21:40:31.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T21:40:31.812Z"
             },
             {
               "$type": "Document",
@@ -121,18 +118,17 @@
               "RelativeToolTip": "JournalEntry.APIs\\Controllers\\JournalController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAA7wC4AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T02:59:33.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T02:59:33.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.APIs\\Program.cs",
               "RelativeDocumentMoniker": "JournalEntry.APIs\\Program.cs",
               "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.APIs\\Program.cs",
               "RelativeToolTip": "JournalEntry.APIs\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxoAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-31T02:59:03.619Z",
               "EditorCaption": ""
@@ -147,18 +143,17 @@
               "RelativeToolTip": "JournalEntry.Service\\ModuleServiceDependencies.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T02:58:36.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T02:58:36.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PdfService.cs",
               "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Service\\Implementation\\PdfService.cs",
               "RelativeDocumentMoniker": "JournalEntry.Service\\Implementation\\PdfService.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Service\\Implementation\\PdfService.cs*",
-              "RelativeToolTip": "JournalEntry.Service\\Implementation\\PdfService.cs*",
-              "ViewState": "AgIAADMAAAAAAAAAAAAmwFMAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Service\\Implementation\\PdfService.cs",
+              "RelativeToolTip": "JournalEntry.Service\\Implementation\\PdfService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAUwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-31T02:56:51.231Z",
               "EditorCaption": ""
@@ -173,8 +168,7 @@
               "RelativeToolTip": "JournalEntry.Service\\Abstracts\\IPdfService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T02:56:09.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T02:56:09.942Z"
             },
             {
               "$type": "Document",
@@ -186,8 +180,7 @@
               "RelativeToolTip": "JournalEntry.Service\\JournalEntry.Service.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-31T02:54:07.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T02:54:07.008Z"
             }
           ]
         },

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JournalEntry.APIs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b3548310f670c6c043ce9bdfff5dbf5de1aa9b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bec21c7722c890ac34cffd1ab0722be533cc83c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("JournalEntry.APIs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JournalEntry.APIs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

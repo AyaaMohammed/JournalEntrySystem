@@ -161,15 +161,6 @@ D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\JournalEn
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\JournalEntry.Data.pdb
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\JournalEntry.Service.pdb
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\DinkToPdf.dll
-D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\libs\wkhtmltox\bin\wkhtmltoimage.exe
-D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\libs\wkhtmltox\bin\wkhtmltopdf.exe
-D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\libs\wkhtmltox\bin\wkhtmltox.dll
-D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\libs\wkhtmltox\include\wkhtmltox\dllbegin.inc
-D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\libs\wkhtmltox\include\wkhtmltox\dllend.inc
-D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\libs\wkhtmltox\include\wkhtmltox\image.h
-D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\libs\wkhtmltox\include\wkhtmltox\pdf.h
-D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\libs\wkhtmltox\lib\wkhtmltox.lib
-D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\libs\wkhtmltox\uninstall.exe
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
 D:\Nitcotek Assessment\JournalEntry\JournalEntry.APIs\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
