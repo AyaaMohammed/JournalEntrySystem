@@ -34,7 +34,7 @@ validations, and SQL Server storage.
     -   Includes entry number, description, and date.
 2.  **Journal Entry Details**
     -   Debit or Credit must be entered (mutually exclusive).
-    -   If debit value is entered â†’ credit becomes 0 automatically.
+    -   If debit value is entered ’ credit becomes 0 automatically.
     -   Must include account (ID & Name).
 3.  **Account Auto-Complete**
     -   Auto-suggest account name & number when entering details.
@@ -43,7 +43,7 @@ validations, and SQL Server storage.
     -   Show totals of debit/credit dynamically.
     -   Show the difference between them (must equal 0 to allow saving).
 5.  **Validation Rules**
-    -   Cannot save if **Debit â‰  Credit**.
+    -   Cannot save if **Debit not equal Credit**.
     -   Cannot save without required fields.
 6.  **Row Management**
     -   Ability to add multiple rows (e.g., 5 rows with one button).
