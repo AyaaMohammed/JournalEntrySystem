@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "JournalEntry.Data\\Models\\JournalHeader.cs",
               "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\JournalHeader.cs",
               "RelativeToolTip": "JournalEntry.Data\\Models\\JournalHeader.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAADQAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDQAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T01:14:59.981Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "JournalEntry.Data\\Models\\AccountsChart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T01:14:49.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T01:14:49.408Z"
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "JournalEntry.Core\\Features\\Journal\\Commands\\Models\\AddJournalCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T01:11:50.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T01:11:50.042Z"
             }
           ]
         },

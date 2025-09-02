@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "D:\\Nitcotek Assessment\\JournalEntry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|solutionrelative:journalentry.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.data\\models\\journalheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|solutionrelative:journalentry.data\\models\\journalheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B50A9BB6-1866-43BC-BA95-77A4C3DF5319}|JournalEntry.Service\\JournalEntry.Service.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.service\\implementation\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B50A9BB6-1866-43BC-BA95-77A4C3DF5319}|JournalEntry.Service\\JournalEntry.Service.csproj|solutionrelative:journalentry.service\\implementation\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.data\\models\\accountschart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3446E56-8D45-42FE-8165-BF7328D945B0}|JournalEntry.Data\\JournalEntry.Data.csproj|solutionrelative:journalentry.data\\models\\accountschart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D790503C-028F-41F5-A368-79CD25096B20}|JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.infrastructure\\repositories\\journalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D790503C-028F-41F5-A368-79CD25096B20}|JournalEntry.Infrastructure\\JournalEntry.Infrastructure.csproj|solutionrelative:journalentry.infrastructure\\repositories\\journalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.apis\\controllers\\journalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|solutionrelative:journalentry.apis\\controllers\\journalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B50A9BB6-1866-43BC-BA95-77A4C3DF5319}|JournalEntry.Service\\JournalEntry.Service.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.service\\moduleservicedependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B50A9BB6-1866-43BC-BA95-77A4C3DF5319}|JournalEntry.Service\\JournalEntry.Service.csproj|solutionrelative:journalentry.service\\moduleservicedependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B50A9BB6-1866-43BC-BA95-77A4C3DF5319}|JournalEntry.Service\\JournalEntry.Service.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.service\\journalentry.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B50A9BB6-1866-43BC-BA95-77A4C3DF5319}|JournalEntry.Service\\JournalEntry.Service.csproj|solutionrelative:journalentry.service\\journalentry.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B50A9BB6-1866-43BC-BA95-77A4C3DF5319}|JournalEntry.Service\\JournalEntry.Service.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.service\\abstracts\\ipdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B50A9BB6-1866-43BC-BA95-77A4C3DF5319}|JournalEntry.Service\\JournalEntry.Service.csproj|solutionrelative:journalentry.service\\abstracts\\ipdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.apis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|solutionrelative:journalentry.apis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E04031AB-AAC3-4220-964F-DAE7895CE4B3}|JournalEntry.APIs\\JournalEntry.APIs.csproj|solutionrelative:journalentry.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C060ABE8-CD8E-4229-ABA8-AE7C940317EB}|JournalEntry.Core\\JournalEntry.Core.csproj|d:\\nitcotek assessment\\journalentry\\journalentry.core\\features\\journal\\commands\\models\\addjournalcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C060ABE8-CD8E-4229-ABA8-AE7C940317EB}|JournalEntry.Core\\JournalEntry.Core.csproj|solutionrelative:journalentry.core\\features\\journal\\commands\\models\\addjournalcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,118 +45,45 @@
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JournalRepository.cs",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Infrastructure\\Repositories\\JournalRepository.cs",
-              "RelativeDocumentMoniker": "JournalEntry.Infrastructure\\Repositories\\JournalRepository.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Infrastructure\\Repositories\\JournalRepository.cs",
-              "RelativeToolTip": "JournalEntry.Infrastructure\\Repositories\\JournalRepository.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T22:31:45.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.APIs\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "JournalEntry.APIs\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.APIs\\Properties\\launchSettings.json",
-              "RelativeToolTip": "JournalEntry.APIs\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-31T21:40:33.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.APIs\\appsettings.json",
-              "RelativeDocumentMoniker": "JournalEntry.APIs\\appsettings.json",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.APIs\\appsettings.json",
-              "RelativeToolTip": "JournalEntry.APIs\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-31T21:40:31.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JournalController.cs",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.APIs\\Controllers\\JournalController.cs",
-              "RelativeDocumentMoniker": "JournalEntry.APIs\\Controllers\\JournalController.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.APIs\\Controllers\\JournalController.cs",
-              "RelativeToolTip": "JournalEntry.APIs\\Controllers\\JournalController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA7wC4AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T02:59:33.806Z"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.APIs\\Program.cs",
-              "RelativeDocumentMoniker": "JournalEntry.APIs\\Program.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.APIs\\Program.cs",
-              "RelativeToolTip": "JournalEntry.APIs\\Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAADMAAAAoAAAAAAAAAA==",
+              "Title": "JournalHeader.cs",
+              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\JournalHeader.cs",
+              "RelativeDocumentMoniker": "JournalEntry.Data\\Models\\JournalHeader.cs",
+              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\JournalHeader.cs",
+              "RelativeToolTip": "JournalEntry.Data\\Models\\JournalHeader.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADQAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T02:59:03.619Z",
+              "WhenOpened": "2025-09-02T01:14:59.981Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ModuleServiceDependencies.cs",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Service\\ModuleServiceDependencies.cs",
-              "RelativeDocumentMoniker": "JournalEntry.Service\\ModuleServiceDependencies.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Service\\ModuleServiceDependencies.cs",
-              "RelativeToolTip": "JournalEntry.Service\\ModuleServiceDependencies.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T02:58:36.021Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PdfService.cs",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Service\\Implementation\\PdfService.cs",
-              "RelativeDocumentMoniker": "JournalEntry.Service\\Implementation\\PdfService.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Service\\Implementation\\PdfService.cs",
-              "RelativeToolTip": "JournalEntry.Service\\Implementation\\PdfService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAUwFMAAAAAAAAAAAAAAA==",
+              "Title": "AccountsChart.cs",
+              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\AccountsChart.cs",
+              "RelativeDocumentMoniker": "JournalEntry.Data\\Models\\AccountsChart.cs",
+              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Data\\Models\\AccountsChart.cs",
+              "RelativeToolTip": "JournalEntry.Data\\Models\\AccountsChart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T02:56:51.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T01:14:49.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IPdfService.cs",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Service\\Abstracts\\IPdfService.cs",
-              "RelativeDocumentMoniker": "JournalEntry.Service\\Abstracts\\IPdfService.cs",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Service\\Abstracts\\IPdfService.cs",
-              "RelativeToolTip": "JournalEntry.Service\\Abstracts\\IPdfService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AddJournalCommand.cs",
+              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Core\\Features\\Journal\\Commands\\Models\\AddJournalCommand.cs",
+              "RelativeDocumentMoniker": "JournalEntry.Core\\Features\\Journal\\Commands\\Models\\AddJournalCommand.cs",
+              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Core\\Features\\Journal\\Commands\\Models\\AddJournalCommand.cs",
+              "RelativeToolTip": "JournalEntry.Core\\Features\\Journal\\Commands\\Models\\AddJournalCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T02:56:09.942Z"
+              "WhenOpened": "2025-09-02T01:11:50.042Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JournalEntry.Service.csproj",
-              "DocumentMoniker": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Service\\JournalEntry.Service.csproj",
-              "RelativeDocumentMoniker": "JournalEntry.Service\\JournalEntry.Service.csproj",
-              "ToolTip": "D:\\Nitcotek Assessment\\JournalEntry\\JournalEntry.Service\\JournalEntry.Service.csproj",
-              "RelativeToolTip": "JournalEntry.Service\\JournalEntry.Service.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-31T02:54:07.008Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         },

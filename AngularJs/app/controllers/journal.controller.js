@@ -5,6 +5,7 @@ app.controller('JournalController', function($scope, AccountService, JournalServ
         try {
             $scope.journal = JSON.parse(savedJournal);
             $scope.journal.entryDate = new Date($scope.journal.entryDate);
+            $scope.journal.journalDetails = [];
         } catch (e) {
             console.error("Error parsing saved journal:", e);
         }
@@ -84,10 +85,13 @@ $scope.today = new Date().toISOString().split("T")[0];
             alert(" لا يمكن الحفظ إلا إذا كان الفرق = صفر");
             return;
         }
-
+    if ($scope.getTotalDebit() <= 100 || $scope.getTotalCredit() <= 100) {
+        alert("المبلغ المدين أو الدائن يجب أن يكون أكبر من 100");
+        return;
+    }
         JournalService.addJournal($scope.journal)
             .then(function(res) {
-                alert("✅ تم الحفظ بنجاح!");
+                alert("تم الحفظ بنجاح!");
                 var newId = res.data.data;
 
                  localStorage.removeItem("journalData");
